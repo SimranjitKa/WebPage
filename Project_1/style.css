@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: General Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#minicircle{
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    background-color: #fff;
+    z-index: 99999;
+    border-radius: 50%;
+}
+
+.bounding{
+    width: fit-content;
+    overflow: hidden;
+}
+
+.bounding .boundingelem{
+    transform: translateY(100%);
+}
+
+#main{
+    width: 100%;
+    background-color: black;
+}
+
+#hero{
+    color: #fff;
+    width: 100%;
+    height: 105vh;
+    background-color: black;
+    position: relative;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 40px;
+}
+
+#nav a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#heading{
+    margin-top: 85px;
+}
+
+#heading h1{
+    margin-left: 30px;
+    line-height: .90;
+    opacity: .7;
+    font-weight: 498;
+    font-size: 11.2vw;
+}
+
+.blocktext{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: fit-content;
+    /* background-color: blueviolet; */
+}
+
+.blocktext h5{
+    text-align: right;
+    margin-top: 11px;
+    font-size: 15.2px;
+    /* background-color: blanchedalmond; */
+}
+
+#heading #sec{
+    margin-left: 173px;
+}
+
+#sideheadings{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 100px;
+    padding-right: 30px;
+}
+
+#sideheadings h5{
+    margin-top: .5vw;
+    font-size: 1.1vw;
+    text-align: right;
+}
+
+#herofooter{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+    bottom: 3%;
+}
+
+#herofooter a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#herofooter #iconset{
+    display: flex;
+    gap: 5px;
+}
+
+#herofooter .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #AAAAAA;
+}
+
+#Second{
+    color: #fff;
+    padding-right: 5vw;
+    padding-top: 120px;
+    padding-left: 3vw;
+    width: 100%;
+    height: 105vh;
+    background-color: black;
+}
+
+.elem{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 1px solid #AAAAAA;
+    padding-top: 2.3vw;
+    padding-bottom: 2.3vw;
+    padding-right: 0;
+}
+
+.elem h1{
+    font-size: 7.3vw;
+    opacity: .6;
+    font-weight: 550;
+}
+
+.elemlast{
+    border-bottom: 1px solid #AAAAAA;
+}
+
+.elem img{
+    opacity: 0;
+    pointer-events: none;
+    height: 140%;
+    z-index: 999;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#about{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    padding: 20vw 10vw 17vw 30vw;
+    
+}
+
+#textabout{
+    width: 32rem;
+}
+
+#textabout h5{
+    opacity: .6;
+    margin-bottom: 10px;
+}
+
+#textabout p{
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+#about img{
+    width: 250px;
+}
+
+#textabout a{
+    padding: 12px 22px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#subscribe{
+    background-color: black;
+    color: #fff;
+    padding: 20px 30px;
+    padding-bottom: 10vw;
+}
+
+#subscribe h5{
+    opacity: .6;
+    font-size: 14px;
+}
+
+#subscribe h3{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#footer{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+#footerleft{
+    display: flex;
+    gap: 20px;
+}
+
+#footerright{
+    display: flex;
+    gap: 36px;
+}
+
+#footer a{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
